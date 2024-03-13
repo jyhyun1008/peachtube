@@ -23,6 +23,7 @@ export const I18N_LOCALES = {
   'is': 'Íslenska',
   'it-IT': 'Italiano',
   'ja-JP': '日本語',
+  'ko-KR': '한국어',
   'kab': 'Taqbaylit',
   'nb-NO': 'Norsk bokmål',
   'nl-NL': 'Nederlands',
