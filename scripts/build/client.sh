@@ -3,7 +3,7 @@
 set -eu
 
 declare -A languages
-defaultLanguage="en-US"
+defaultLanguage="ko-KR"
 
 # Supported languages
 languages=(
@@ -28,6 +28,7 @@ languages=(
     ["zh-Hans"]="zh-Hans-CN"
     ["zh-Hant"]="zh-Hant-TW"
     ["fr"]="fr-FR"
+    ["ko"]="ko-KR"
     ["ja"]="ja-JP"
     ["eu"]="eu-ES"
     ["ca"]="ca-ES"
