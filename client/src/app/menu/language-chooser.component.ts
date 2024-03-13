@@ -33,7 +33,7 @@ export class LanguageChooserComponent {
   }
 
   getCurrentLanguage () {
-    const english = 'English'
+    const english = '한국어'
     const locale = isOnDevLocale() ? getDevLocale() : getCompleteLocale(this.localeId)
 
     if (locale) return I18N_LOCALES[locale as keyof typeof I18N_LOCALES] || english
