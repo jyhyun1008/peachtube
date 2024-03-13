@@ -22,7 +22,7 @@ jobs:
         id: set-matrix
         run: |
           # FIXME: https://github.com/actions/checkout/issues/290
-          git fetch --force --tags
+          git fetch --force --always
 
           one="{ \"file\": \"./support/docker/production/Dockerfile.bookworm\", \"ref\": \"develop\", \"tags\": \"chocobozzz/peertube:develop-bookworm\" }"
           two="{ \"file\": \"./support/docker/production/Dockerfile.bookworm\", \"ref\": \"master\", \"tags\": \"chocobozzz/peertube:production-bookworm,chocobozzz/peertube:$(git describe --abbrev=0)-bookworm\" }"
