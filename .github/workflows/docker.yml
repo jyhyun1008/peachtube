@@ -22,6 +22,7 @@ jobs:
         id: set-matrix
         run: |
           # FIXME: https://github.com/actions/checkout/issues/290
+          git tag v6.0.3-peach1 -m 'some message'
           git fetch --force --tags
 
           one="{ \"file\": \"./support/docker/production/Dockerfile.bookworm\", \"ref\": \"develop\", \"tags\": \"chocobozzz/peertube:develop-bookworm\" }"
